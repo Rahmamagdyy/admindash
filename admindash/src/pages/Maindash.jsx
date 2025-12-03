@@ -5,7 +5,12 @@ const Maindash = () => {
     return ( <>
     <section className='MainDash'>
 
-    <Sidebar />
+<section className='side'>
+
+<Sidebar />
+
+</section>
+
 
     
   <section className='tool'>
