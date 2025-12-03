@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Sidebar.css'
+import { Link } from "react-router-dom";
 const Sidebar = () => {
     return ( <>
 
@@ -16,10 +17,14 @@ const Sidebar = () => {
           <span className="nav-label">Dashboard</span>
         </a>
 
-        <a href="#projects" className="nav-item">
-          <span className="nav-icon">🧩</span>
-          <span className="nav-label">Projects</span>
-        </a>
+   
+
+        <Link to="projects" className="nav-item">
+             
+        <span className="nav-icon">🧩</span>
+        <span className="nav-label">Projects</span>
+
+              </Link>
 
         <a href="#skills" className="nav-item">
           <span className="nav-icon">🎨</span>

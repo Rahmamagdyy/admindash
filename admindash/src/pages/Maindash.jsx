@@ -268,6 +268,7 @@ const Maindash = () => {
                 <div className="bar-container"><div className="bar bar-blue proj-may"></div></div>
                 <span className="bar-value">10,000</span>
             </div>
+        
 
             <div className="bar-item">
                 <span className="bar-label">Jun</span>
