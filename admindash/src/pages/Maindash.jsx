@@ -3,14 +3,14 @@ import Sidebar from '../components/Sidebar';
 import './Maindash.css';
 const Maindash = () => {
     return ( <>
-    <section classNNameName='MainDash'>
+    <section className='MainDash'>
 
     <Sidebar />
 
     
-   <main classNName="main-content">
+  <section className='tool'>
 
-     <h1 className="page-title">Dashboard</h1>
+  <h1 className="page-title">Dashboard</h1>
     <p className="page-subtitle">Welcome back! Here's your portfolio overview</p>
 
     <div className="stats-grid">
@@ -311,7 +311,10 @@ const Maindash = () => {
         <button className="btn btn-secondary">Save Changes</button>
         <button className="btn btn-primary">Generate</button>
     </div>
-    </main>
+ 
+
+  </section>
+
 
 
     </section>
