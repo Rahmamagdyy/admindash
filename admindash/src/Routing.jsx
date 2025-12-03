@@ -10,8 +10,8 @@ const Routing = () => {
     <Routes>
 
     <Route path="/" element={<Home />} /> 
-    <Route path="/main" element={<Maindash />} /> 
-    <Route path="/project" element={<Projects />} /> 
+    <Route path="/Maindash" element={<Maindash />} /> 
+    <Route path="/Projects" element={<Projects />} /> 
 
     </Routes>
     </BrowserRouter>

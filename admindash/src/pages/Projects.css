@@ -1,5 +1,36 @@
 
+.Mando{width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .toola{
+    
+        width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+position: absolute;
+  margin-left: 25%;
+  margin-top: -60%;
+
+    }
+    
+.sid{
+
+    height: 90%;
+}
+
 .main-content {
+
     padding: 2rem;
     color: #f9fafb;
   }

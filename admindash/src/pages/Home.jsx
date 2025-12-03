@@ -42,7 +42,7 @@ const Home = () => {
                 </a>
               </div>
 
-              <Link to="main">
+              <Link to="Maindash">
                 <button type="button" className="login-btn">
                   Sign In
                 </button>
