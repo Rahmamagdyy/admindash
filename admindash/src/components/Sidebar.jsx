@@ -76,6 +76,7 @@ const Sidebar = () => {
           <span className="nav-label">Log Out</span>
         </button>
       </div>
+      
     </aside>
     
     </> );
