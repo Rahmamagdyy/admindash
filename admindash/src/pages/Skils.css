@@ -75,6 +75,7 @@ margin-top: 5%;
         color: var(--text-primary);
         margin-bottom: 20px;
         letter-spacing: -0.3px;
+        margin-top: 5%;
     }
 
    
@@ -463,6 +464,7 @@ margin-top: 5%;
         .main-content {
             margin-left: 70px;
             padding: 24px 20px;
+            
         }
         
         .page-title {
