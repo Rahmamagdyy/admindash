@@ -33,10 +33,7 @@ const Sidebar = () => {
           <span className="nav-label">Skills</span>
         </a>
 
-        <a href="#experience" className="nav-item">
-          <span className="nav-icon">💼</span>
-          <span className="nav-label">Experience</span>
-        </a>
+      
 
         <a href="#categories" className="nav-item">
           <span className="nav-icon">🏷️</span>
