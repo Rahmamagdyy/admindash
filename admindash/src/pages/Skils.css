@@ -231,7 +231,17 @@ margin-top: 5%;
         border: 1px solid var(--border-card);
         border-radius: 16px;
         padding: 28px;
-        margin-bottom: 32px;
+  margin-top: 5%;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(18px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 1.2rem;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+     
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+        transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
     }
 
     .overview-title {
@@ -348,6 +358,12 @@ margin-top: 5%;
         padding: 16px 24px;
         border-bottom: 1px solid var(--border-subtle);
         transition: background 0.2s ease;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(18px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 1.2rem;
+        overflow: hidden;
+        margin-top: 2%;
     }
 
     .update-item:last-child {
