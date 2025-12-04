@@ -26,12 +26,13 @@ const Sidebar = () => {
         <span className="nav-icon">🧩</span>
         <span className="nav-label">Projects</span>
 
-              </Link>
+         </Link>
 
-        <a href="#skills" className="nav-item">
+
+              <Link to="/Skils" className="nav-item">
           <span className="nav-icon">🎨</span>
           <span className="nav-label">Skills</span>
-        </a>
+          </Link>
 
       
 

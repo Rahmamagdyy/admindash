@@ -193,6 +193,22 @@ margin-top: 5%;
     gap: 0.6rem;
   }
   
+  @keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
   .btn-edit,
   .btn-delete {
     flex: 1;
