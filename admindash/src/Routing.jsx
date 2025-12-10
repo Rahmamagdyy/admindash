@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Maindash from './pages/Maindash';
 import Projects from './pages/Projects';
 import Skils from './pages/Skils';
+import Cat from './pages/Cat';
 const Routing = () => {
     return ( <>
 
@@ -14,6 +15,7 @@ const Routing = () => {
     <Route path="/Maindash" element={<Maindash />} /> 
     <Route path="/Projects" element={<Projects />} /> 
     <Route path="/Skils" element={<Skils />} /> 
+    <Route path="/Cat" element={<Cat />} /> 
 
     </Routes>
     </BrowserRouter>
