@@ -26,6 +26,31 @@ margin-top: 5%;
 
     }
 
+    .ambient-glow {
+        position: fixed;
+        width: 600px;
+        height: 600px;
+        border-radius: 50%;
+        filter: blur(150px);
+        opacity: 0.12;
+        pointer-events: none;
+        z-index: 0;
+    }
+    
+    .ambient-glow.orange {
+        background: var(--accent-orange);
+        top: -200px;
+        right: -100px;
+    }
+    
+    .ambient-glow.red {
+        background: #dc2626;
+        bottom: -200px;
+        left: -100px;
+    }
+    
+
+
   
 
     .page-header {

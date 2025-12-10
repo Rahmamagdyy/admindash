@@ -5,6 +5,9 @@ import Sidebar from '../components/Sidebar';
 const Skils = () => {
   return (
     <>
+       <div className="ambient-glow orange"></div>
+       <div className="ambient-glow red"></div>
+       
       <section className="mandy">
         <section className="sedo">
           <Sidebar />
