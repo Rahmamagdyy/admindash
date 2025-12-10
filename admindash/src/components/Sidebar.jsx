@@ -49,7 +49,7 @@ const Sidebar = () => {
           <Link to="/Messages" className="nav-item">
           <span className="nav-icon">✉️</span>
           <span className="nav-label">Messages</span>
-          <span className="badge">8</span>
+          <span className="badge">7</span>
           </Link>
 
         <a href="#profile" className="nav-item">
