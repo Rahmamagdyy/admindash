@@ -25,6 +25,47 @@ margin-top: 5%;
     }
 
 
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.page-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    background: linear-gradient(135deg, #fff 0%, #ccc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.add-btn {
+    background: var(--accent-orange);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 20px var(--accent-orange-glow);
+}
+
+.add-btn:hover {
+    background: var(--accent-orange-light);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 30px var(--accent-orange-glow);
+}
+
+
+
+
 .ambient-glow {
     position: fixed;
     width: 600px;

@@ -16,8 +16,18 @@ const Pagelist = () => {
 
 
         <section className="skilo">
+
+        <header className="page-header">
+              <h1 className="page-title">Pagelist</h1>
+              <button className="add-btn">Add Page</button>
+            </header> 
+        
         <div className="table-container">
   <table className="pages-table">
+ 
+
+
+
     <thead>
       <tr>
         <th>Page</th>
