@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 import Skils from './pages/Skils';
 import Cat from './pages/Cat';
 import Pagelist from './pages/Pagelist';
+import Messages from './pages/Messages';
 
 
 const Routing = () => {
@@ -20,7 +21,7 @@ const Routing = () => {
     <Route path="/Skils" element={<Skils />} /> 
     <Route path="/Cat" element={<Cat />} /> 
     <Route path="/Pagelist" element={<Pagelist />} /> 
-
+    <Route path="/Messages" element={<Messages />} /> 
 
     </Routes>
     </BrowserRouter>

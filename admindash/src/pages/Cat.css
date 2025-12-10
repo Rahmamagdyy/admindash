@@ -19,7 +19,7 @@
     --border-card: rgba(255, 255, 255, 0.05);
 }
 
-.Mandy{width: 100%;
+.Mandyi{width: 100%;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@
     flex-direction: row;
     }
     
-    .skilo{
+    .skilop{
     
         width: 100%;
     height: 100vh;
@@ -610,7 +610,7 @@ margin-top: 5%;
 .tag-item:nth-child(11) { animation-delay: 0.65s; }
 .tag-item:nth-child(12) { animation-delay: 0.68s; }
 
-/* Responsive */
+
 @media (max-width: 1024px) {
     .categories-grid {
         grid-template-columns: repeat(2, 1fr);

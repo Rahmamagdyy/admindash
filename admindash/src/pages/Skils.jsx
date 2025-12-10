@@ -7,20 +7,20 @@ const Skils = () => {
     <>
        <div className="ambient-glow orange"></div>
        <div className="ambient-glow red"></div>
-       
-      <section className="mandy">
+
+      <section className="mandyy">
         <section className="sedo">
           <Sidebar />
         </section>
 
-        <section className="skilo">
+        <section className="skiloo">
           <main className="main-content">
             <header className="page-header">
               <h1 className="page-title">Skills</h1>
               <button className="add-skill-btn">Add Skill</button>
             </header>
 
-            {/* DESIGN */}
+         
             <section className="section">
               <h2 className="section-title">Design</h2>
               <div className="skills-grid">
@@ -260,7 +260,7 @@ const Skils = () => {
               </div>
             </section>
 
-            {/* DATABASE */}
+       
             <section className="section">
               <h2 className="section-title">Database</h2>
               <div className="skills-grid">

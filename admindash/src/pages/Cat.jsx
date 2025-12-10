@@ -8,12 +8,12 @@ const Cat = () => {
       <div className="ambient-glow orange"></div>
       <div className="ambient-glow red"></div>
 
-      <section className="mandy">
+      <section className="mandyi">
         <section className="sedo">
           <Sidebar />
         </section>
 
-        <div className="skilo">
+        <div className="skilop">
           <main className="main-content">
             <header className="page-header">
               <h1 className="page-title">Categories</h1>
@@ -59,6 +59,7 @@ const Cat = () => {
                   <div className="project-count">
                     Projects <span className="count-badge">6</span>
                   </div>
+                  
                   <div className="card-actions">
                     <button className="action-btn">✎ Edit</button>
                     <button className="action-btn delete">🗑</button>

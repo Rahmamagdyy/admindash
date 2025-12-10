@@ -9,8 +9,6 @@ const Maindash = () => {
 
     <section className='MainDash'>
 
-        
-
 <section className='side'>
 
 <Sidebar />

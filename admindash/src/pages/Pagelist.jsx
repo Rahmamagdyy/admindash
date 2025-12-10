@@ -8,14 +8,14 @@ const Pagelist = () => {
     <div className="ambient-glow orange"></div>
     <div className="ambient-glow red"></div>
 
-    <section className="mandy">
+    <section className="mandop">
         
     <section className="sedo">
           <Sidebar />
         </section>
 
 
-        <section className="skilo">
+        <section className="skilop">
 
         <header className="page-header">
               <h1 className="page-title">Pagelist</h1>
@@ -88,7 +88,7 @@ const Pagelist = () => {
         <td>
           <div className="actions-cell">
             <button className="action-btn view" title="View">👁</button>
-            <button className="action-btn edit" title="Edit">✏️</button>
+            <button className="action-btn edit" title="">✏️</button>
             <button className="action-btn delete" title="Delete">🗑</button>
           </div>
         </td>
@@ -102,7 +102,7 @@ const Pagelist = () => {
         <td>
           <div className="actions-cell">
             <button className="action-btn view" title="View">👁</button>
-            <button className="action-btn edit" title="Edit">✏️</button>
+            <button className="action-btn edit" title="">✏️</button>
             <button className="action-btn delete" title="Delete">🗑</button>
           </div>
         </td>

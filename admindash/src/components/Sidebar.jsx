@@ -46,11 +46,11 @@ const Sidebar = () => {
           <span className="nav-label">Pages</span>
           </Link>
 
-        <a href="#messages" className="nav-item">
+          <Link to="/Messages" className="nav-item">
           <span className="nav-icon">✉️</span>
           <span className="nav-label">Messages</span>
           <span className="badge">8</span>
-        </a>
+          </Link>
 
         <a href="#profile" className="nav-item">
           <span className="nav-icon">👤</span>
