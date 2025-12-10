@@ -336,7 +336,6 @@ body {
     overflow: hidden;
 }
 
-/* Modal Overlay */
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -370,6 +369,10 @@ body {
     overflow: hidden;
     transform: scale(0.9) translateY(20px);
     transition: all 0.3s ease;
+    .modal-body {
+        max-height: 60vh;     
+        overflow-y: auto;      
+    }
 }
 
 .modal-overlay.active .modal {
@@ -540,7 +543,7 @@ body {
 .message-card:nth-child(6) { animation-delay: 0.3s; }
 .message-card:nth-child(7) { animation-delay: 0.35s; }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .sidebar {
         width: 70px;
@@ -569,7 +572,6 @@ body {
         flex-direction: column;
         gap: 16px;
     }
-
     .modal {
         width: 95%;
         margin: 16px;
@@ -580,20 +582,20 @@ body {
     }
 }
 
+      
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
 
-::-webkit-scrollbar {
-    width: 8px;
-}
+        ::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+        }
 
-::-webkit-scrollbar-track {
-    background: var(--bg-secondary);
-}
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
 
-::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
