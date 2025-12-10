@@ -36,10 +36,10 @@ const Sidebar = () => {
 
       
 
-        <a href="#categories" className="nav-item">
+          <Link to="/Cat" className="nav-item">
           <span className="nav-icon">🏷️</span>
           <span className="nav-label">Categories</span>
-        </a>
+          </Link>
 
         <a href="#pages" className="nav-item">
           <span className="nav-icon">📄</span>
