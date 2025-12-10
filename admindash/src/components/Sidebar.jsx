@@ -41,10 +41,10 @@ const Sidebar = () => {
           <span className="nav-label">Categories</span>
           </Link>
 
-        <a href="#pages" className="nav-item">
+          <Link to="/Pagelist" className="nav-item">
           <span className="nav-icon">📄</span>
           <span className="nav-label">Pages</span>
-        </a>
+          </Link>
 
         <a href="#messages" className="nav-item">
           <span className="nav-icon">✉️</span>
