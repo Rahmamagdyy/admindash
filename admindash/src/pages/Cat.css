@@ -83,7 +83,7 @@ body {
     left: -100px;
 }
 
-/* Layout */
+
 .app-container {
     display: flex;
     min-height: 100vh;
@@ -91,7 +91,7 @@ body {
     z-index: 1;
 }
 
-/* Header */
+
 .page-header {
     display: flex;
     justify-content: space-between;
@@ -130,7 +130,7 @@ body {
     box-shadow: 0 6px 30px var(--accent-orange-glow);
 }
 
-/* Section */
+
 .section {
     margin-bottom: 48px;
 }
@@ -168,14 +168,14 @@ body {
     border-color: rgba(255, 255, 255, 0.15);
 }
 
-/* Categories Grid */
+
 .categories-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-/* Category Card */
+
 .category-card {
     background: var(--bg-card);
     border: 1px solid var(--border-card);
@@ -325,7 +325,7 @@ body {
     color: #ef4444;
 }
 
-/* Tags Grid */
+
 .tags-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -385,12 +385,12 @@ body {
     font-weight: 600;
 }
 
-/* Stats Grid */
+
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-    margin-bottom: 48px;
+margin-top: 5%;
 }
 
 .stat-card {
@@ -428,7 +428,7 @@ body {
 .stat-sub.positive { color: var(--accent-green); }
 .stat-sub.muted { color: var(--text-muted); }
 
-/* Recent Activity */
+
 .activity-list {
     background: var(--bg-card);
     border: 1px solid var(--border-card);
@@ -522,7 +522,7 @@ body {
     color: var(--text-secondary);
 }
 
-/* Footer Actions */
+
 .footer-actions {
     display: flex;
     justify-content: center;
@@ -568,7 +568,7 @@ body {
     box-shadow: 0 6px 30px var(--accent-orange-glow);
 }
 
-/* Animations */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
