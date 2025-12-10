@@ -5,6 +5,8 @@ import Sidebar from '../components/Sidebar';
 const Projects = () => {
     return ( <>
 
+<div className="ambient-glow orange"></div>
+<div className="ambient-glow red"></div>
 
 <section className='mando'>
 

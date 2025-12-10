@@ -1,5 +1,6 @@
 import React from 'react';
 import Sidebar from '../components/Sidebar';
+import './Cat.css'
 
 const Cat = () => {
   return (

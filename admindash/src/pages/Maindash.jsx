@@ -3,7 +3,13 @@ import Sidebar from '../components/Sidebar';
 import './Maindash.css';
 const Maindash = () => {
     return ( <>
+
+<div className="ambient-glow orange"></div>
+<div className="ambient-glow red"></div>
+
     <section className='MainDash'>
+
+        
 
 <section className='side'>
 
