@@ -39,9 +39,10 @@ const Projects = () => {
   <div className="projects-grid">
 
 
-    <div className="project-card">
+    <div className="project-cardo">
       <div className="project-image bg-grad-orange">
-        <span className="project-emoji">🛍️</span>
+        <span className="project-emojii">🛍️</span>
+  
       </div>
       <div className="project-info">
         <h3 className="project-title">E-Commerce Platform</h3>
@@ -52,12 +53,13 @@ const Projects = () => {
 
         <div className="project-actions">
          
-        <Link to="/Editp" className="btn-edit">
+        <Link to="/Editp" className="btn-edito">
            Edit ✏️
         </Link>
 
     
           <button className="btn-delete">Delete 🗑️</button>
+          
         </div>
       </div>
     </div>
