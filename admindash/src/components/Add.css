@@ -1,0 +1,19 @@
+.add-btn {
+    background: var(--accent-orange);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 20px var(--accent-orange-glow);
+}
+
+.add-btn:hover {
+    background: var(--accent-orange-light);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 30px var(--accent-orange-glow);
+}

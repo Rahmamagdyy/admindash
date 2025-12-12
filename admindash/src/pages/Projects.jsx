@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Projects.css'
 import Sidebar from '../components/Sidebar';
+import { Link } from "react-router-dom";
 
 const Projects = () => {
     return ( <>
@@ -48,8 +49,14 @@ const Projects = () => {
         <p className="project-description">
           A full-stack e-commerce platform with modern UI, payment integration, and admin dashboard
         </p>
+
         <div className="project-actions">
-          <button className="btn-edit">Edit ✏️</button>
+         
+        <Link to="/Editp" className="btn-edit">
+           Edit ✏️
+        </Link>
+
+    
           <button className="btn-delete">Delete 🗑️</button>
         </div>
       </div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Sidebar from '../components/Sidebar';
 import './Pagelist.css'
 
+
 const Pagelist = () => {
     return (<>
     
@@ -18,8 +19,10 @@ const Pagelist = () => {
         <section className="skilop">
 
         <header className="page-header">
+     
               <h1 className="page-title">Pagelist</h1>
               <button className="add-btn">Add Page</button>
+             
             </header> 
         
         <div className="table-container">
